@@ -1,0 +1,16 @@
+{
+  "name": "{{Name}}",
+  "description": "{{Name}} is a chrome extension for x.",
+  "version": "0.1",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["content_script.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Make Word Happy!"
+  },
+  "manifest_version": 2
+}
